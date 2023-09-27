@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+    color:whitesmoke;
+    font-family: "Times New Roman", Times, serif;
+
+}
+a:hover{
+    color:red;
+}
+a{
+    text-decoration:none;
+    color: whitesmoke
+}
+.font1{
+    background-image: url('../images/stadium.jpeg');
+    background-position: center;
+    color:black;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin:0 auto;
+    overflow:hidden;
+    font-size: 20px;
+}
+
+.font{
+    float:left;
+    width:70%;
+    box-sizing: border-box;
+}
+#navbar{
+    border-bottom: 1px red solid;
+    padding-left: 15px ;
+}
+#navbar ul{
+    padding:0;
+	list-style:none;
+}
+
+#navbar li{
+    display: inline;
+}
+#navbar a{
+	font-size:14px;
+	padding-right: 15px;
+    overflow: hidden;  
+}
+.clr{
+	clear:both;
+}
+#main-footer{
+	background:red;
+	color:whitesmoke;
+	text-align: center;
+	padding: 1px;
+	margin-top: 20px;
+}
